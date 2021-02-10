@@ -2,14 +2,11 @@ import React, { useState } from 'react';
 import Header from './Nav';
 import About from './About';
 import Portfolio from './Portfolio';
-import Contact from './Contact';
 function PortfolioContainer() {
   const [currentPage, handlePageChange] = useState('About');
 
   const renderPage = (props) => {
-    // Add a switch statement that will return the appropriate component of the 'currentPage'
-    // YOUR CODE HERE
-    //
+    
     console.log(props)
     switch (props) {
       case 'About':
@@ -33,9 +30,7 @@ function PortfolioContainer() {
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
      
         {
-          // Render the component returned by 'renderPage()'
-          // YOUR CODE HERE
-          //
+          
           renderPage(currentPage)
         }
      

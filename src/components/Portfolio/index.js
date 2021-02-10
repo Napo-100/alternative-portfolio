@@ -4,18 +4,16 @@ import { DiGithubAlt } from "react-icons/di";
 import tourVidImg from "../../assets/tourVid.png";
 import mspImg from "../../assets/MSP.png";
 import weatherImg from "../../assets/weatherDashboard.png";
-import budgetImg from "../../assets/budgetTracker.png";
+// import budgetImg from "../../assets/budgetTracker.png";
 import creativeSquare from "../../assets/creativesquare2.png";
 import passGenImg from "../../assets/password-generator.jpg"
 
 import {
-  MDBBtn,
   MDBCard,
   MDBCardBody,
   MDBCardImage,
   MDBCardTitle,
   MDBCardText,
-  MDBCol,
   MDBRow,
   MDBCardGroup,
 } from "mdbreact";
@@ -65,26 +63,12 @@ function Portfolio() {
   ];
 
   return (
-    // <section className="bg-dark text-light p-5" id="portfolio">
-    //     {portfolioData.map((project, i) => (
-    //   <a href={project.titlelink}>
-    //       <DiGithubAlt />
-    //   <img
-    //     src={project.img}
-    //     alt={project.title}
-    //     className="img-thumbnail mx-1"
-    //     key={i}
-    //   />
-    //   </a>
-    // )
-    //     )}
-    // </section>
     <Container fluid id="portfolio">
       <MDBRow className="justify-content-center">
         {portfolioData.map((project, i) => (
           <MDBCardGroup>
-            <MDBCard style={{ width: "22rem" }} className="m-1">
-              <a href={project.githublink} target="_blank">
+            <MDBCard style={{ width: "22rem" }} className="m-1" key={project.title}>
+              <a href={project.githublink} target="_blank" rel="noreferrer">
                 <MDBCardImage
                   style={{ height: "24rem" }}
                   className="img-fluid"
@@ -113,7 +97,7 @@ function Portfolio() {
                   class="btn text-light"
                   style={{ backgroundColor: "#224e66" }}
                   href={project.titlelink}
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   See This Live
                 </a>

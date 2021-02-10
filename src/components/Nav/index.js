@@ -1,11 +1,9 @@
-import React, { useEffect } from "react";
+import React from "react";
 import {
   Navbar,
   Nav,
   Jumbotron,
   Container,
-  Form,
-  Button,
 } from "react-bootstrap";
 import image from "../../assets/Full Stack Logo White.png";
 import resume from "../../assets/files/Michael-Napolitano-updated-Dev-Resume-for-Portfolio.pdf";

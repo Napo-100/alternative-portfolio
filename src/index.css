@@ -1,0 +1,45 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+body, html {
+  height: 100%;
+  }
+  .bg {
+  background-image: url("./assets/business-dev.png");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .text-name{
+  font-size: 50px;
+  }
+  .nav-background{
+    background: rgba(23,44,65, 1);
+  }
+  .heavy-opacity{
+    background: rgba(23,44,65, 0.6);
+  }
+  .heavy-opacity:hover{
+    background: rgba(23,44,65, 0.9)
+  }
+  .box-shadow{
+    background: #ccc;
+    box-shadow: 8px 3px 8px 1px #969696;
+  	-webkit-box-shadow: 8px 3px 8px 1px #969696;
+  }
+ 
+
+

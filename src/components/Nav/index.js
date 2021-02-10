@@ -23,14 +23,15 @@ function Header(props) {
               src={image}
               width="60"
               height="60"
-              className="d-inline-block align-top"
+              className="d-none d-lg-inline-block align-top"
               alt="React Bootstrap logo"
             />
           </Navbar.Brand>
 
           <Navbar.Brand
             href="#about"
-            style={{ fontSize: "45px" }}
+            style={{ fontSize: "36px" }}
+            className=""
             onClick={() => props.handlePageChange("#about")}
           >
             Michael Napolitano
@@ -61,7 +62,7 @@ function Header(props) {
           </Navbar.Collapse>
         </Navbar>
 
-        <Jumbotron fluid className="bg m-0">
+        <Jumbotron fluid className="bg m-0 d-none d-lg-block">
           <Container className="text-center"></Container>
         </Jumbotron>
       </header>

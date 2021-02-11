@@ -8,7 +8,7 @@ import {
 import image from "../../assets/Full Stack Logo White.png";
 import resume from "../../assets/files/Michael-Napolitano-updated-Dev-Resume-for-Portfolio.pdf";
 function Header(props) {
-  const tabs = ["About", "Portfolio"];
+  const tabs = ["About", "Projects", "Bonus"];
   return (
     <>
       <header>

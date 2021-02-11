@@ -1,39 +1,36 @@
-import React, { useState } from 'react';
-import Header from './Nav';
-import About from './About';
-import Portfolio from './Portfolio';
+import React, { useState } from "react";
+import Header from "./Nav";
+import About from "./About";
+import Projects from "./Projects";
+import Bonus from "./Bonus";
 function PortfolioContainer() {
-  const [currentPage, handlePageChange] = useState('About');
+  const [currentPage, handlePageChange] = useState("About");
 
   const renderPage = (props) => {
-    
-    console.log(props)
+    console.log(props);
     switch (props) {
-      case 'About':
+      case "About":
         return <About />;
 
-      case 'Portfolio':
-        return <Portfolio />;
-      
-        // case 'Contact':
-        //   return <Contact />;
+      case "Projects":
+        return <Projects />;
+
+      case "Bonus":
+        return <Bonus />;
+
+      // case 'Contact':
+      //   return <Contact />;
 
       default:
         return <About />;
-
     }
-
   };
 
   return (
     <div>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-     
-        {
-          
-          renderPage(currentPage)
-        }
-     
+
+      {renderPage(currentPage)}
     </div>
   );
 }

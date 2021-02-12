@@ -1,13 +1,10 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-// import { DiGithubAlt } from "react-icons/di";
-import theHeavy from "../../assets/files/video/The-Heavy-Promo-for-creative-square.mp4";
-import davidLawrence from "../../assets/files/video/David-Lawrence-Photo.mp4";
 
 import {
   MDBCard,
   MDBCardBody,
-//   MDBCardImage,
+  //   MDBCardImage,
   MDBCardVideo,
   MDBCardTitle,
   MDBCardText,
@@ -18,45 +15,59 @@ import {
 function VideoProjects() {
   const videoProjectData = [
     {
-      video: theHeavy,
+      video: "https://player.vimeo.com/video/389339816",
       title: "The Heavy Promo",
       description:
         "Promo I filmed and edited for a special event at a local venue.",
     },
     {
-      video: davidLawrence,
-      title: "david Lawrence",
+      video: "https://player.vimeo.com/video/385716586",
+      title: "David Lawrence Photography",
       description:
-        "Promo I filmed and edited for a special event at a local venue.",
+        "Promo I filmed for a photographer friend of mine during a pop-up event.",
+    },
+    {
+      video: "https://player.vimeo.com/video/385716830",
+      title: "Addiction",
+      description:
+        "A mockumentary about a man struggling with a ridiculous addiction.",
+    },
+    {
+      video: "https://player.vimeo.com/video/389340075",
+      title: "The Blind Date",
+      description: "A short sketch starring yours truly.",
+    },
+    {
+      video: "https://player.vimeo.com/video/386134768",
+      title: "The Awkard Audition",
+      description: "This was a fun one.",
     },
   ];
 
   return (
-    <Container fluid id="bonus">
-      <MDBRow className="justify-content-center">
+    <Container fluid  className="pb-5 pt-1 bg-light variant-light h-full">
+      <div className="p-3 text-center">
+        {" "}
+        <h2 className="pt-3">
+          In addition to coding I also enjoy filming promotional videos for
+          local companies and making short comedy films.
+        </h2>
+      </div>
+      <MDBRow className="justify-content-center pb-3 pt-2">
         {videoProjectData.map((vProject, i) => (
           <MDBCardGroup>
             <MDBCard
               style={{ width: "22rem" }}
-              className="m-1"
+              className="m-1 pb-5"
               key={vProject.title}
             >
-              <a href={vProject.githublink} target="_blank" rel="noreferrer">
-                <MDBCardVideo
-                  style={{ height: "200px" }}
-                  className="video-fluid"
-                  src={vProject.video}
-                />
-                {/* <DiGithubAlt
-                  style={{
-                    position: "absolute",
-                    top: "0",
-                    color: "#224e66",
-                    fontSize: "45px",
-                    opacity: "0.5",
-                  }}
-                /> */}
-              </a>
+              <MDBCardVideo
+                style={{ height: "240px" }}
+                className="video-fluid"
+                src={vProject.video}
+                height="360"
+              />
+
               <MDBCardBody>
                 <MDBCardTitle>{vProject.title}</MDBCardTitle>
 

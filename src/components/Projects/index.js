@@ -63,7 +63,7 @@ function Projects() {
   ];
 
   return (
-    <Container fluid id="projects">
+    <Container fluid >
       <MDBRow className="justify-content-center">
         {projectData.map((project, i) => (
           <MDBCardGroup>

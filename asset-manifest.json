@@ -1,20 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.18dcafe2.chunk.css",
-    "main.js": "/static/js/main.18b92700.chunk.js",
-    "main.js.map": "/static/js/main.18b92700.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.567123af.js",
-    "runtime-main.js.map": "/static/js/runtime-main.567123af.js.map",
+    "main.js": "/static/js/main.46d84e62.chunk.js",
+    "main.js.map": "/static/js/main.46d84e62.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2262dc24.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2262dc24.js.map",
     "static/css/2.88b7e462.chunk.css": "/static/css/2.88b7e462.chunk.css",
-    "static/js/2.23f877c8.chunk.js": "/static/js/2.23f877c8.chunk.js",
-    "static/js/2.23f877c8.chunk.js.map": "/static/js/2.23f877c8.chunk.js.map",
-    "static/js/3.0c52cc85.chunk.js": "/static/js/3.0c52cc85.chunk.js",
-    "static/js/3.0c52cc85.chunk.js.map": "/static/js/3.0c52cc85.chunk.js.map",
+    "static/js/2.5d2404c8.chunk.js": "/static/js/2.5d2404c8.chunk.js",
+    "static/js/2.5d2404c8.chunk.js.map": "/static/js/2.5d2404c8.chunk.js.map",
+    "static/js/3.ded93b78.chunk.js": "/static/js/3.ded93b78.chunk.js",
+    "static/js/3.ded93b78.chunk.js.map": "/static/js/3.ded93b78.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.88b7e462.chunk.css.map": "/static/css/2.88b7e462.chunk.css.map",
     "static/css/main.18dcafe2.chunk.css.map": "/static/css/main.18dcafe2.chunk.css.map",
-    "static/js/2.23f877c8.chunk.js.LICENSE.txt": "/static/js/2.23f877c8.chunk.js.LICENSE.txt",
-    "static/media/Full Stack Logo White.7be2573f.png": "/static/media/Full Stack Logo White.7be2573f.png",
+    "static/js/2.5d2404c8.chunk.js.LICENSE.txt": "/static/js/2.5d2404c8.chunk.js.LICENSE.txt",
     "static/media/MSP.4caf3e3a.png": "/static/media/MSP.4caf3e3a.png",
     "static/media/Michael-Napolitano-updated-Dev-Resume-for-Portfolio.351996aa.pdf": "/static/media/Michael-Napolitano-updated-Dev-Resume-for-Portfolio.351996aa.pdf",
     "static/media/mdb.css": "/static/media/arrow_right.0897f985.svg",
@@ -27,10 +26,10 @@
     "static/media/weatherDashboard.fca4d7f3.png": "/static/media/weatherDashboard.fca4d7f3.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.567123af.js",
+    "static/js/runtime-main.2262dc24.js",
     "static/css/2.88b7e462.chunk.css",
-    "static/js/2.23f877c8.chunk.js",
+    "static/js/2.5d2404c8.chunk.js",
     "static/css/main.18dcafe2.chunk.css",
-    "static/js/main.18b92700.chunk.js"
+    "static/js/main.46d84e62.chunk.js"
   ]
 }

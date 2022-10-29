@@ -1,6 +1,6 @@
-import profImage from "../../assets/color-profile3.jpeg";
-import Image from "react-bootstrap/Image";
-import { Container, Jumbotron } from "react-bootstrap";
+import profImage from '../../assets/headshot.jpeg';
+import Image from 'react-bootstrap/Image';
+import { Container, Jumbotron } from 'react-bootstrap';
 function About() {
   return (
     <div>
@@ -8,19 +8,19 @@ function About() {
         <Container className="text-center"></Container>
       </Jumbotron> */}
 
-      <section className="bg-light variant-light p-5" >
-        <Container className="text-center">
+      <section className='bg-light variant-light p-5'>
+        <Container className='text-center'>
           <Image
             src={profImage}
             fluid
             roundedCircle
-            className="box-shadow"
-            width="50%"
-            height="50%"
-            alt="cover"
+            className='box-shadow'
+            width='50%'
+            height='50%'
+            alt='cover'
           />
-          <h1 className="pt-3">About Me</h1>
-          <div className="my-2 p-0">
+          <h1 className='pt-3'>About Me</h1>
+          <div className='my-2 p-0'>
             <p>
               I am driven by a passion for problem solving. Whatever the
               project, the framework, or the goal, it is undoubtedly the

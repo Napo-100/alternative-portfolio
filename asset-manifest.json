@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.18dcafe2.chunk.css",
-    "main.js": "/static/js/main.8576c666.chunk.js",
-    "main.js.map": "/static/js/main.8576c666.chunk.js.map",
+    "main.js": "/static/js/main.3cf940ee.chunk.js",
+    "main.js.map": "/static/js/main.3cf940ee.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2262dc24.js",
     "runtime-main.js.map": "/static/js/runtime-main.2262dc24.js.map",
     "static/css/2.88b7e462.chunk.css": "/static/css/2.88b7e462.chunk.css",
@@ -18,9 +18,9 @@
     "static/media/Michael-Napolitano-updated-Dev-Resume-for-Portfolio.0dbca008.pdf": "/static/media/Michael-Napolitano-updated-Dev-Resume-for-Portfolio.0dbca008.pdf",
     "static/media/mdb.css": "/static/media/arrow_right.0897f985.svg",
     "static/media/index.css": "/static/media/business-dev.b55ec139.png",
-    "static/media/color-profile3.6939c577.jpeg": "/static/media/color-profile3.6939c577.jpeg",
     "static/media/creativesquare2.1175463f.png": "/static/media/creativesquare2.1175463f.png",
     "static/media/all.min.css": "/static/media/fa-solid-900.f4f93856.woff",
+    "static/media/headshot.491f7b22.jpeg": "/static/media/headshot.491f7b22.jpeg",
     "static/media/password-generator.d218a19e.jpg": "/static/media/password-generator.d218a19e.jpg",
     "static/media/tourVid.b6ebd713.png": "/static/media/tourVid.b6ebd713.png",
     "static/media/weatherDashboard.fca4d7f3.png": "/static/media/weatherDashboard.fca4d7f3.png"
@@ -30,6 +30,6 @@
     "static/css/2.88b7e462.chunk.css",
     "static/js/2.5d2404c8.chunk.js",
     "static/css/main.18dcafe2.chunk.css",
-    "static/js/main.8576c666.chunk.js"
+    "static/js/main.3cf940ee.chunk.js"
   ]
 }
